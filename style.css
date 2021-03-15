@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.orange-heiglight{
+    color: tomato;
+}
+p{
+    color: indianred;
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banar{
+    background-image: url(image/banar\ 3.png);
+    background-repeat: no-repeat;
+}
+.mid-banar{
+    background-image: url(image/top\ banar.png);
+    background-repeat: no-repeat;
+}
+   
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(180deg, black,pink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    box-shadow:7px 10px 10px gray;
+    border-radius: 5px;
+}
+.single-area{
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+
+}
+#sharif{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#rabbi{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#sharif{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#rabbi{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, yellow, cyan);
+    border-image-slice: 1;
+}
+table,th,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 5%;
+    width: 500px;
+   margin-bottom: 5%;
+}
+audio{
+    box-shadow: 10px 10px 40px gray;
+ margin-right: 20%;
+ margin-left: 5%;  
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
+}
+
+
